@@ -1,0 +1,9 @@
+a=7
+print(a)
+print(type(a))
+b=2.1
+print(b)
+print(type(b))
+c=True
+print(c)
+print(type(c))

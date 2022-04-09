@@ -1,0 +1,42 @@
+# print()
+# student_id=("student id :- 01")
+# name=input("enter your name :- ")
+# # print(name)
+# print(student_id)
+# score=float(input("enter your mark in data structure: "))
+# score1=float(input("enter your mark in c++ : "))
+# score2=int(input("enter your mark in mysql : "))
+# sum=(score+score1+score2)
+# print("your total score out of 100 is :",sum)
+# print()
+# student_id=("student id :- 02")
+# print(student_id)
+# print(input("enter your name :- "))
+# mark1=float(input("enter your mark in science : "))
+# mark2=float(input("enter your mark in geography : "))
+# mark3=float(input("enter your score in politics : "))
+# sum=(mark1+mark2+mark3)
+# print("your total score out of 100 is : ",sum)
+# print()
+# student_id=("student id :- 03")
+# print(student_id)
+# print(input("enter your name :- "))
+# mark1=float(input("enter your mark in maths : "))
+# mark2=float(input("enter your mark in english : "))
+# mark3=float(input("enter your score in malayalam : "))
+# sum=(mark1+mark2+mark3)
+# print("your total score out of 100 is : ",sum)
+#
+#
+#
+#
+# #
+name=input("enter your name")
+maths=float(input("enter your mark in maths :"))
+science=float(input("enter your mark in science :"))
+english=float(input("enter your mark in physics :"))
+total=maths+science+english
+averg=("your average is")
+# averg=total/3
+averg=(maths+science+english)/3 #inside bracket func will run first,without division willl happen first(pemdas)
+print("your total",total,"\n" "your average is",averg)
